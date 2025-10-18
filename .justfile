@@ -6,7 +6,7 @@ publish description: update-readme
     git add pyproject.toml
     git add uv.lock
     git commit -m "Bump version to v$(uv version --short): {{ description }}"
-    just tag {{ description }}
+    just tag "{{ description }}"
     uv build
     uv publish
     rm -rf dist
