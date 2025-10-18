@@ -238,7 +238,7 @@ Examples:
 
   # Full sync with verbose output
   python sync_workspace.py --remove-missing --verbose
-        """,
+""",
     )
 
     parser.add_argument(
