@@ -11,7 +11,7 @@ For help and available commands, run: `code-workspace-sync --help`:
 
 <!-- [[[cog
     import subprocess as sp
-    out = sp.check_output(["code-workspace-sync", "--help"], stderr=sp.DEVNULL).decode()
-    cog.out("```text\n" + out + "```\n")
+    out = sp.check_output(["code-workspace-sync", "--help"], stderr=sp.DEVNULL).decode().strip()
+    cog.out("```text\n" + out + "\n\n```\n")
 ]]] -->
 <!-- [[[end]]] -->
