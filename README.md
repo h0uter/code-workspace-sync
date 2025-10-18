@@ -32,18 +32,18 @@ options:
 
 Examples:
   # Basic sync (add missing directories)
-  python sync_workspace.py
+  code-workspace-sync
 
   # Sync with custom paths
-  python sync_workspace.py --src-repos ./repositories --workspace my-workspace.code-workspace
+  code-workspace-sync --src-repos ./repositories --workspace my-workspace.code-workspace
 
   # Sync and remove missing directories
-  python sync_workspace.py --remove-missing
+  code-workspace-sync --remove-missing
 
   # Dry run to see what would change
-  python sync_workspace.py --dry-run --verbose
+  code-workspace-sync --dry-run --verbose
 
   # Full sync with verbose output
-  python sync_workspace.py --remove-missing --verbose
+  code-workspace-sync --remove-missing --verbose
 
 ```
